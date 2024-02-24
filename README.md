@@ -2,7 +2,13 @@
 # TODO Tap
 use 
 ```
+adb shell input tap <x-coordinate> <y-coordinate> # refence of below
+adb shell input tap 500 700
+
+
 adb shell input text "your_email@example.com"
+adb shell input keyevent KEYCODE_ENTER
+
 ```
 
 # references
