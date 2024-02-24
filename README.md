@@ -4,6 +4,7 @@ use
 ```
 adb shell input tap <x-coordinate> <y-coordinate> # refence of below
 adb shell input tap 500 700
+or use adb shell input keyevent KEYCODE_TAB two times
 
 
 adb shell input text "your_email@example.com"
