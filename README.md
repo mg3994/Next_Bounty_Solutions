@@ -11,6 +11,9 @@ adb shell input keyevent KEYCODE_ENTER
 
 ```
 
+# experimental Stuff
+adb shell input keyevent KEYCODE_DPAD_DOWN
+
 # references
 
 >adb shell dumpsys window | findstr /R /C:"mCurrentFocus" /C:"mFocusedApp"
