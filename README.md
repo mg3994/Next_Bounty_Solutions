@@ -14,6 +14,8 @@ adb shell input keyevent KEYCODE_ENTER
 # experimental Stuff
 adb shell input keyevent KEYCODE_DPAD_DOWN
 
+Navigation Keys: Depending on the layout of the app, navigation keys such as KEYCODE_MENU, KEYCODE_BACK, or KEYCODE_HOME might trigger changes in focus.
+
 # references
 
 >adb shell dumpsys window | findstr /R /C:"mCurrentFocus" /C:"mFocusedApp"
