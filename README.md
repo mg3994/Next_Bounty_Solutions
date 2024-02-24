@@ -12,6 +12,11 @@ adb shell input keyevent KEYCODE_ENTER
 
 ```
 
+# verify robot Screen
+Tab 
+Enter
+Enter
+
 # experimental Stuff
 adb shell input keyevent KEYCODE_DPAD_DOWN
 
