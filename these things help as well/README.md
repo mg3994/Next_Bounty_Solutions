@@ -1,3 +1,4 @@
+```
 adb shell dumpsys input_method
 * daemon not running; starting now at tcp:5037
 * daemon started successfully
@@ -1671,3 +1672,4 @@ No files found.
 
 Content in directory /data/user/0/com.google.android.inputmethod.latin/cache
 No files found.
+```
